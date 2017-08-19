@@ -30,9 +30,13 @@
 			<h1>Web Maps</h1>
 			
 				<h3>Ohio Golf Courses (2017)</h3>
-				<p>This map utilizes QGIS, the QGIS2Web plugin, and Leaflet.
-				HTML, CSS, and Leaflet JS were customized manually.
-				Hover over blips to view golf course address.</p>
+				<p>This project utilizeed Python, the Google Places API, QGIS, the QGIS2Web plugin, and Leaflet.
+				HTML, CSS, and Leaflet JS were customized manually. Hover over the blips to view golf course address.
+				My dad needed a list of golf courses and their address in the state of Ohio. All I could find online, however, 
+				were data sets with only the name of the course, the city, and the state.
+				So, I geocoded the data set in QGIS using the MMQGIS plugin which generated latitude and longitude coordinates.
+				Using those coordinates I wrote a script in Python to make a call to the Google Places API in order to obtain the full address of each golf club.
+				</p>
 				<a href="https://dhagquist.github.io/GolfCoursesOhio/" target="_blank"><img src="https://raw.githubusercontent.com/dhagquist/GolfCoursesOhio/master/screenshot.png"></a>
 				<center>
 				<a href="https://dhagquist.github.io/GolfCoursesOhio/" target="_blank">[Live Demo]</a>

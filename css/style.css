@@ -16,6 +16,10 @@ body {
 	color: #444;
 }
 
+nav {
+	margin: 0px 0px 0px 0px;
+}
+
 #header {
 	margin: 0px 0px 0px 0px;
 	padding: 0px;

@@ -38,7 +38,12 @@ nav {
 }
 
 h1 {
-	color: #999999;
+	color: #000;
+	font-size: 40px;
+}
+
+h3 {
+	color:#999;	
 }
 
 #footer {
